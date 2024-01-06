@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ThresholdSettingBody"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ThresholdSetting">
+
+    <include layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1234dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tsCodeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="{{tsCode}}预警值设置"
+                    android:textAlignment="textStart"
+                    android:layout_marginLeft="21dp"
+                    android:textColor="@color/blue_text"
+                    android:textSize="20sp"
+                    android:layout_marginRight="38dp"
+                    android:translationY="10dp" />
+
+                <TextView
+                    android:id="@+id/textSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="监听开关"
+                    android:textAlignment="textStart"
+                    android:layout_marginLeft="21dp"
+                    android:textColor="@color/blue_text"
+                    android:textSize="18sp"
+                    android:layout_marginRight="4dp"
+                    android:translationY="10dp" />
+                <Switch
+                    android:id="@+id/appearance_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:track="@drawable/switch_button_track"
+                    android:thumb="@drawable/switch_button_thumb"
+                    android:switchTextAppearance="@style/SwitchTextAppearanceBlack"
+                    android:translationY="2dp"
+                    android:textOn="@string/any_on"
+                    android:textOff="@string/any_off"
+                    android:textSize="1sp"
+                    android:showText="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/minLowerBoundTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="最低价下限:"
+                    android:textColor="@color/blue_text"
+                    android:textSize="21sp"
+                    android:translationX="20dp"
+                    android:translationY="10dp" />
+
+                <EditText
+                    android:id="@+id/minLowerBound"
+                    android:layout_width="203dp"
+                    android:layout_height="46dp"
+                    android:background="@drawable/edittext_bg_gray"
+                    android:hint="最低价下限"
+                    android:textColor="@color/gray_1"
+                    android:translationX="40dp"
+                    android:translationY="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/changeLowerBoundTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="涨跌幅下限:"
+                    android:textColor="@color/blue_text"
+                    android:textSize="21sp"
+                    android:translationX="20dp"
+                    android:translationY="10dp" />
+
+                <EditText
+                    android:id="@+id/changeLowerBound"
+                    android:layout_width="203dp"
+                    android:layout_height="46dp"
+                    android:background="@drawable/edittext_bg_gray"
+                    android:hint="涨跌幅下限"
+                    android:textColor="@color/gray_1"
+                    android:translationX="60dp"
+                    android:translationY="10dp" />
+
+            </LinearLayout>
+
+            <android.widget.Button
+                android:id="@+id/submit_button"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rounded_rect_3_white"
+                android:layoutDirection="locale"
+                android:text="设置完成"
+                android:textColor="#434343"
+                android:textSize="25sp"
+                android:translationY="0dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

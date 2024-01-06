@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.companypowernode.dao.mapper.AlarmMapper">
+    <insert id="Insert" parameterType="com.companypowernode.dao.vo.reqVO.AlarmReqVO">
+        insert into alarm (`user_id`,`ts_code`,`high`,`low`,`change`)
+        values (#{req.userId}, #{req.tsCode},#{req.high},#{req.low},#{req.change})
+    </insert>
+    <update id="Update" parameterType="com.companypowernode.dao.vo.reqVO.AlarmReqVO">
+    update alarm
+    set `high` = #{req.high},
+        `low` = #{req.low},
+        `change` = #{req.change},
+        `ts_code` = #{req.tsCode}
+    where id = #{req.id}
+</update>
+    <select id="info" resultType="com.companypowernode.dao.entity.Alarm">
+        select *
+        from alarm
+        where user_id = #{userId}
+    </select>
+
+
+</mapper>

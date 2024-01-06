@@ -1,0 +1,23 @@
+server:
+  port: 8025
+  session-timeout: 30
+  address: 0.0.0.0
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/finance?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+mybatis:
+  mapper-locations: classpath*:com/finance/dao/*Mapper.xml
+  type-aliases-package: com.finance.dao
+reggie:
+  path: D:\img\

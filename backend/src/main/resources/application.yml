@@ -1,0 +1,47 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/eco?serverTimezone=GMT%2B8&characterEncoding=utf8
+    password: 123456Ly
+    username: root
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: localhost
+    port: 6379
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/Company
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    default-encoding: UTF-8
+    host: smtp.qq.com
+    port: 587
+    username: 3483548962@qq.com
+    password: csidxtutgbemdaaa
+    properties:
+      mail:
+        smtp:
+          socketFactoryClass: javax.net.ssl.SSLSocketFactory
+        debug: true
+    from: 3483548962@qq.com
+logging:
+  level:
+    com.company: debug
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#http://localhost:9999/swagger-ui.html#/
+aliyun:
+  ALIBABA_CLOUD_ACCESS_KEY_ID: LTAI5t9XCgvyWdFtK47RNSR5
+  ALIBABA_CLOUD_ACCESS_KEY_SECRET: tWYcMNVOgjCsHXpvK1gEtJgAy4WXNw
+

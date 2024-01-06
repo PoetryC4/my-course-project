@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Main-Class: com.companypowernode.CompanyApplication
+Class-Path: swagger-bootstrap-ui-1.6.jar spring-boot-starter-logging-2.7
+ .9.jar netty-buffer-4.1.89.Final.jar mongodb-driver-sync-4.6.1.jar spri
+ ng-data-mongodb-3.4.8.jar jackson-annotations-2.13.5.jar spring-retry-1
+ .3.4.jar spring-rabbit-2.4.10.jar tomcat-embed-websocket-9.0.71.jar byt
+ e-buddy-1.12.23.jar bson-record-codec-4.6.1.jar jackson-core-2.13.5.jar
+  springfox-spring-web-2.9.2.jar spring-webmvc-5.3.25.jar HikariCP-4.0.3
+ .jar jackson-module-parameter-names-2.13.5.jar tomcat-embed-el-9.0.71.j
+ ar commons-lang-2.5.jar lombok-1.18.26.jar netty-handler-4.1.89.Final.j
+ ar spring-boot-autoconfigure-2.7.9.jar spring-boot-starter-amqp-2.4.0.j
+ ar slf4j-api-1.7.36.jar classmate-1.5.1.jar jul-to-slf4j-1.7.36.jar map
+ struct-1.2.0.Final.jar mybatis-plus-core-3.5.2.jar spring-expression-5.
+ 3.25.jar mybatisplus-plus-1.7.3-RELEASE.jar slf4j-jdk14-1.7.36.jar mong
+ odb-driver-core-4.6.1.jar kotlin-stdlib-1.6.21.jar mybatis-plus-annotat
+ ion-3.5.2.jar log4j-api-2.17.2.jar spring-boot-2.7.9.jar springfox-swag
+ ger-common-2.9.2.jar jakarta.mail-1.6.7.jar netty-resolver-4.1.89.Final
+ .jar fastjson-1.2.15.jar spring-context-5.3.25.jar freemarker-2.3.32.ja
+ r jsqlparser-4.4.jar mybatis-3.5.10.jar spring-boot-starter-json-2.7.9.
+ jar spring-tx-5.3.25.jar lettuce-core-6.1.10.RELEASE.jar kotlin-stdlib-
+ jdk7-1.6.21.jar spring-boot-starter-data-redis-2.7.9.jar annotations-13
+ .0.jar spring-jdbc-5.3.25.jar jackson-datatype-jdk8-2.13.5.jar spring-p
+ lugin-metadata-1.2.0.RELEASE.jar swagger-models-1.5.20.jar reactive-str
+ eams-1.0.4.jar netty-codec-4.1.89.Final.jar springfox-swagger2-2.9.2.ja
+ r spring-boot-starter-mail-2.7.9.jar spring-plugin-core-1.2.0.RELEASE.j
+ ar spring-boot-starter-web-2.7.9.jar amqp-client-5.14.2.jar guava-20.0.
+ jar jackson-databind-2.13.5.jar log4j-to-slf4j-2.17.2.jar spring-oxm-5.
+ 3.25.jar spring-messaging-5.3.25.jar tomcat-embed-core-9.0.71.jar swagg
+ er-annotations-1.5.20.jar springfox-core-2.9.2.jar spring-data-redis-2.
+ 7.8.jar kotlin-stdlib-common-1.6.21.jar spring-boot-starter-2.7.9.jar n
+ etty-transport-native-unix-common-4.1.89.Final.jar logback-classic-1.2.
+ 11.jar springfox-swagger-ui-2.9.2.jar mybatis-spring-2.0.7.jar jakarta.
+ activation-1.2.2.jar spring-boot-starter-data-mongodb-2.7.9.jar jakarta
+ .annotation-api-1.3.5.jar spring-context-support-5.3.25.jar reactor-cor
+ e-3.4.27.jar logback-core-1.2.11.jar snakeyaml-1.30.jar bson-4.6.1.jar 
+ spring-amqp-2.4.10.jar spring-aop-5.3.25.jar mysql-connector-j-8.0.32.j
+ ar springfox-spi-2.9.2.jar netty-transport-4.1.89.Final.jar mybatis-plu
+ s-boot-starter-3.5.2.jar mybatis-plus-extension-3.5.2.jar spring-beans-
+ 5.3.25.jar netty-common-4.1.89.Final.jar spring-boot-starter-jdbc-2.7.9
+ .jar mybatis-plus-3.5.2.jar spring-jcl-5.3.25.jar spring-data-keyvalue-
+ 2.7.8.jar spring-web-5.3.25.jar kotlin-stdlib-jdk8-1.6.21.jar jackson-d
+ atatype-jsr310-2.13.5.jar spring-core-5.3.25.jar spring-data-commons-2.
+ 7.8.jar springfox-schema-2.9.2.jar spring-boot-starter-tomcat-2.7.9.jar
+

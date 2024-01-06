@@ -1,0 +1,23 @@
+server:
+  port: 8025
+  session-timeout: 30
+  address: 0.0.0.0
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgre
+    password: 123
+    username: postgre
+mybatis:
+  mapper-locations: classpath*:com/finance/dao/*Mapper.xml
+  type-aliases-package: com.finance.dao
+reggie:
+  path: D:\img\
